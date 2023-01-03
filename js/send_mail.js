@@ -7,9 +7,12 @@ function sendMail() {
         From :'thanhduckrb767@gmail.com',
         ReplayTo:  document.getElementById('email').value,
         Subject : "Chào",
-        Body : "Heloo"
+        Body : "Name: " +document.getElementById('name_form').value
+            + "<br> Email: " + document.getElementById('email').value
+            + "<br> Phone: " + document.getElementById('phone_form').value
+            + "<br> Message: " + document.getElementById('message').value
     }).then(
-      message => alert(message)
+      message => alert("Gửi thành công")
     );
 }
 
