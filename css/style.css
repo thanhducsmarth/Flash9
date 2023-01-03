@@ -310,7 +310,7 @@ img {
 
     .nav_link:hover {
         background-color: var(--second-color);
-        color: var(--fist-color);
+        color: var(--fist-color) !important;
         border-radius: 5px;
         transition: all .5s ease;
     }
