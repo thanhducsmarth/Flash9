@@ -107,8 +107,10 @@ img {
 /* ========Responsive menu======================= */
 
 @media screen and (max-width: 767px) {
+
     .nav_menu {
         position: fixed;
+        /* margin-bottom: var(--header-height); */
         bottom: -100%;
         width: 100%;
         left: 0;
@@ -121,13 +123,17 @@ img {
 
     .nav_list {
         grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
+        gap: var(--mb-1);
     }
 
     .nav_link {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: var(--mb-0-5) 0;
+        font-size: 18px;
+        border: 1px solid var(--second-color);
+        border-radius: 10px;
     }
 
     .nav_close {
@@ -180,11 +186,40 @@ img {
 
     .row_tes {
         flex-direction: column;
+        row-gap: var(--mb-2);
     }
 
     .col_tes {
         flex: 100% !important;
         max-width: 80% !important;
+    }
+
+    .banner_size h1, .overlay_work h1, .overlay_contact h1 {
+        font-size: 50px !important;
+    }
+
+    .right_look, .right_look2 {
+        padding-top: var(--mb-2);
+    }
+
+    .top_footer a {
+        line-height: var(--mb-1-5);
+    }
+
+    .nav-icon {
+        font-size: 23px;
+    }
+
+    .menu-icons, .nav_close {
+        font-size: 25px;
+    }
+
+    .all_look, .all_look2 {
+        padding: 0 var(--mb-1) var(--mb-2) var(--mb-1) !important;
+    }
+
+    form button {
+        width: 40% !important;
     }
 
 }
