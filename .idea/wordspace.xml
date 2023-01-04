@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e03ef54-dfa9-461c-a0aa-e85927d2a09d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/menu_pc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/send_mail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/merge" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
