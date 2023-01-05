@@ -1,8 +1,8 @@
 function sendMail() {
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "thanhduckrb767@gmail.com",
-        Password : "8E68E3B307E56E58C71832222EF60489B1C2",
+        Username : "f9.flash9@gmail.com",
+        Password : "E8F8AC731D034EBAFFA3CB3B2C1573C0C8C4",
         To : 'thanhduckrb767@gmail.com',
         From :'thanhduckrb767@gmail.com',
         ReplayTo:  document.getElementById('email').value,
