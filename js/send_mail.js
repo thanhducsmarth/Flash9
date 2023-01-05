@@ -3,8 +3,8 @@ function sendMail() {
         Host : "smtp.elasticemail.com",
         Username : "f9.flash9@gmail.com",
         Password : "E8F8AC731D034EBAFFA3CB3B2C1573C0C8C4",
-        To : 'thanhduckrb767@gmail.com',
-        From :'thanhduckrb767@gmail.com',
+        To : 'f9.flash9@gmail.com',
+        From :'f9.flash9@gmail.com',
         ReplayTo:  document.getElementById('email').value,
         Subject : "Chào",
         Body : "Name: " +document.getElementById('name_form').value
