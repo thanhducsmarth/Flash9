@@ -7,11 +7,17 @@
     --black-color: #000000;
     --fist-color: #FFFFFF;
     --second-color: #800000;
+    --near_white-color: #e7e7e7;
     --color-socials: #f0f0f0;
+    --near_background: #00000033;
     /* ==========font-text========== */
     --title-font: 17px;
     --title-baner: 86px;
     --title-under-banner: 28px;
+    --font_size_nav: 1.1rem;
+    --font_size_h1: 35px;
+    --font_size_content: 25px;
+    --font_size_link: 17px;
     /* ==========Magenets-Bottom============== */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
@@ -64,7 +70,7 @@ img {
 
 .gird {
     display: grid;
-    gap: 1.5rem;
+    gap: var(--mb-1-5);
 }
 
 /* ===============HEADER============== */
@@ -95,7 +101,7 @@ img {
 }
 
 .nav_toggle {
-    font-size: 1.1rem;
+    font-size: var(--font_size_nav);
     cursor: pointer;
 }
 
@@ -139,13 +145,13 @@ img {
     .nav_close {
         position: absolute;
         right: 1.3rem;
-        bottom: 0.5rem;
-        font-size: 1.5rem;
+        bottom: var(--mb-0-5);
+        font-size: var(--mb-1-5);
         cursor: pointer;
     }
 
     .header {
-        background-color: #e7e7e7;
+        background-color: var(--near_white-color);
     }
 
     body {
@@ -245,7 +251,7 @@ img {
 }
 
 .overlay {
-    background: #00000033;
+    background: var(--near_background);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -259,14 +265,14 @@ img {
 }
 
 .content h1 {
-    font-size: 35px;
+    font-size:var(--font_size_h1);
     letter-spacing: 8px;
     font-weight: 900;
     text-shadow: 4px 5px 3px rgb(79, 79, 79);
 }
 
 .content p {
-    font-size: 25px;
+    font-size: var(--font_size_content);
     line-height: 1.3em;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -310,7 +316,7 @@ img {
 
     .nav_list {
         display: flex;
-        column-gap: 2rem;
+        column-gap: var(--mb-2);
         justify-content: space-between;
     }
 
@@ -331,7 +337,7 @@ img {
     }
 
     .nav_link {
-        font-size: 17px;
+        font-size: var(--font_size_link);
         text-decoration: none;
         letter-spacing: 1px;
         font-weight: 700;
